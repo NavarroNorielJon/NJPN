@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/*===========================SIDEBAR===========================*/
+.active {
+    background-color: rgba(219, 219, 219, 0.959);
+    border-left: 4px solid black;
+}
+
+aside .nav-item {
+    padding: 0 !important;
+}
+
+aside .nav-item .nav-link {
+    padding-left: 24px !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0 !important;
+}
+
+aside .nav-item:hover {
+    background-color: rgba(219, 219, 219, 0.959);
+    border-left: 4px solid black;
+        
+}
+
+aside .nav-item .nav-link:hover {
+    background-color: rgba(219, 219, 219, 0.959) !important;
+}
+/*===========================SIDEBAR===========================*/
+
+.dropdown-menu-icon {
+    display: inline-block;
+}
+.error {
+    color: red;
+    position: absolute;
+}
+
+.login-form .login-form-header .login-logo {
+    width: 160px;
+}
+.login-body {
+    height: 100%;
+}
+
+.login-body .login-form {
+    background-color: white;
+    width: 350px;
+    height: auto;
+}
+
+.user-dropdown {
+    background-color: rgb(224, 224, 224) !important;
+    font-size: 12px;
+    padding: 0;
+    width: 270px;
+}
+
+.user-dropdown .user-image {
+    width: 100px;
+}
+
+.user-dropdown .dropdown-menu-footer{
+    background-color: rgb(17, 17, 17);
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #d2d6de;
+}
+
