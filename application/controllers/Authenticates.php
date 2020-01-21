@@ -28,10 +28,9 @@ class Authenticates extends CI_Controller
     function home()
     {
         $data['head'] = 'modules/template_header';
-        $data['title'] = 'Home';
         $data['content'] = 'admin/home';
         $data['footer'] = 'modules/template_footer';
-        $data['page'] = "home";
+        $data['page'] = "Dashboard";
         $this->load->view('modules/master_template', $data);
     }
 

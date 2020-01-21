@@ -30,6 +30,14 @@ aside .nav-item:hover {
 aside .nav-item .nav-link:hover {
     background-color: rgba(219, 219, 219, 0.959) !important;
 }
+
+.card {
+    border-top: 3px solid #0275d8;
+}
+
+.content-wrapper {
+    background-color: #ecf0f5 !important;
+}
 /*===========================SIDEBAR===========================*/
 
 .dropdown-menu-icon {
