@@ -13,7 +13,7 @@ class Authenticates extends CI_Controller
         $session = $this->session->userdata('logged_in');
         if($session)
         {
-            redirect(base_url().'Authenticates/home');
+            redirect(base_url().'home');
         }
         else
         {
@@ -23,15 +23,6 @@ class Authenticates extends CI_Controller
             $data['footer'] = 'modules/template_footer';
             $this->load->view('modules/master_template', $data);
         }
-    }
-
-    function home()
-    {
-        $data['head'] = 'modules/template_header';
-        $data['content'] = 'admin/home';
-        $data['footer'] = 'modules/template_footer';
-        $data['page'] = "Dashboard";
-        $this->load->view('modules/master_template', $data);
     }
 
     function login()
@@ -84,7 +75,7 @@ class Authenticates extends CI_Controller
                     'user' => $user
                 );
             }
-    
+
             echo json_encode($array);        
         }
     }

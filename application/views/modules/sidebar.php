@@ -24,8 +24,8 @@
                     </a>
                 </li>
                 <li class="nav-header p-0 pl-2">MANAGEMENT</li>
-                <li class="nav-item pl-2">
-                    <a href="pages/calendar.html" class="nav-link">
+                <li class="nav-item pl-2 <?= ($page === "Customer Search") ? "active" : "" ?>">
+                    <a href="<?= base_url() ?>customer" class="nav-link">
                         <i class="fas fa-users mr-1"></i>
                         <p>Customer</p>
                     </a>

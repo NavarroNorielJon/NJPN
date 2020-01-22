@@ -14,7 +14,7 @@ $(document).ready(function() {
                     if(password === 1 && user_type === 1){
                         $("#error").html("");
                         $("#password").css({"border" : "initial"});
-                        window.location.href = "/Authenticates/home";
+                        window.location.href = "/home";
                     }else if(password === 1 && user_type != 1){
                         $("#error").html("<p>User is not an administrator</p>");
                         $("#email").css({"border" : "1px solid #EA2828", "border-radius" : "4px"});   

@@ -28,7 +28,7 @@
                 <span class="error" id="error"></span>
             </div>
 
-            <div class="login-form-footer mt-4 d-flex justify-content-end">
+            <div class="login-form-footer mt-3 d-flex justify-content-end">
                 <input type="submit" class="btn btn-primary mt-1">
             </div>
             <?= form_close() ?>
